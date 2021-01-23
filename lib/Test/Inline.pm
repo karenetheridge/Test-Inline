@@ -139,7 +139,7 @@ use Test::Inline::Content::Simple  ();
 use Test::Inline::Extract          ();
 use Test::Inline::IO::File         ();
 
-our $VERSION = '2.214';
+our $VERSION = '2.215';
 our @ISA     = 'Algorithm::Dependency::Source';
 
 

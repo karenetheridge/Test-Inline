@@ -97,7 +97,7 @@ use List::Util                  ();
 use Params::Util                qw{_ARRAY};
 use Algorithm::Dependency::Item ();
 
-our $VERSION = '2.214';
+our $VERSION = '2.215';
 our @ISA     = 'Algorithm::Dependency::Item';
 our $errstr  = '';
 

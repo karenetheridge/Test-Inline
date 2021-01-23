@@ -24,7 +24,7 @@ use Algorithm::Dependency::Ordered ();
 use overload 'bool' => sub () { 1 },
              '""'   => 'filename';
 
-our $VERSION = '2.214';
+our $VERSION = '2.215';
 our @ISA     = qw{
 	Algorithm::Dependency::Source
 	Algorithm::Dependency::Item

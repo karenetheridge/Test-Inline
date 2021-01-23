@@ -16,7 +16,7 @@ use strict;
 use Params::Util qw{_INSTANCE};
 use Test::Inline::Content ();
 
-our $VERSION = '2.214';
+our $VERSION = '2.215';
 our @ISA = 'Test::Inline::Content';
 
 sub process {
