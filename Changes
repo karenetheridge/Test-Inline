@@ -1,5 +1,8 @@
 Revision history for Perl extension Test-Inline
 
+{{$NEXT}}
+          - distribution tooling updates
+
 2.213   2013-04-08
 	- Updating to Module::Install 1.06
 	- Fix tests to handle hash randomisation

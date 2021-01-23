@@ -1,10 +1,8 @@
 #!/usr/bin/perl
+# PODNAME: inline2test
+# ABSTRACT: The Test::Inline 2 Test Compiler
 
 =pod
-
-=head1 NAME
-
-inline2test - The Test::Inline 2 Test Compiler
 
 =head1 SYNOPIS
 

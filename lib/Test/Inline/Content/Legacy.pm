@@ -1,10 +1,7 @@
 package Test::Inline::Content::Legacy;
+# ABSTRACT: Test::Inline 2 Content Handler for legacy functions
 
 =pod
-
-=head1 NAME
-
-Test::Inline::Content::Legacy - Test::Inline 2 Content Handler for legacy functions
 
 =head1 SYNOPSIS
 
@@ -113,19 +110,5 @@ sub process {
 =head1 SUPPORT
 
 See the main L<SUPPORT|Test::Inline/SUPPORT> section.
-
-=head1 AUTHOR
-
-Adam Kennedy E<lt>adamk@cpan.orgE<gt>, L<http://ali.as/>
-
-=head1 COPYRIGHT
-
-Copyright 2004 - 2013 Adam Kennedy.
-
-This program is free software; you can redistribute
-it and/or modify it under the same terms as Perl itself.
-
-The full text of the license can be found in the
-LICENSE file included with this module.
 
 =cut

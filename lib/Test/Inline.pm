@@ -1,10 +1,7 @@
 package Test::Inline;
+# ABSTRACT: Embed your tests in your code, next to what is being tested
 
 =pod
-
-=head1 NAME
-
-Test::Inline - Embed your tests in your code, next to what is being tested
 
 =head1 DESCRIPTION
 
@@ -823,34 +820,9 @@ extended begin sections may cause POD errors.
 
 - Add support for C<=for> sections
 
-=head1 SUPPORT
-
-Bugs should always be submitted via the CPAN bug tracker
-
-L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Test-Inline>
-
-Professional support, assistance, or customisations for large scale
-uses of C<Test::Inline> are available from L<http://phase-n.com/>.
-
-For other issues, contact the maintainer.
-
-=head1 AUTHOR
-
-Adam Kennedy E<lt>adamk@cpan.orgE<gt>
-
 =head1 ACKNOWLEDGEMENTS
 
 Thank you to Phase N (L<http://phase-n.com/>) for permitting
 the open sourcing and release of this distribution.
-
-=head1 COPYRIGHT
-
-Copyright 2004 - 2013 Adam Kennedy.
-
-This program is free software; you can redistribute
-it and/or modify it under the same terms as Perl itself.
-
-The full text of the license can be found in the
-LICENSE file included with this module.
 
 =cut
