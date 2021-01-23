@@ -33,8 +33,6 @@ use Config::Tiny           ();
 use Test::Inline           ();
 use Test::Inline::IO::File ();
 
-our $VERSION = '2.214';
-
 # Predeclare things
 sub stop ($);
 
