@@ -9,7 +9,7 @@ BEGIN {
 }
 
 use File::Spec::Functions ':ALL';
-use Path::Tiny;
+use Path::Tiny ();
 use Test::More tests => 7;
 use Test::Inline ();
 
@@ -20,7 +20,7 @@ use Test::Inline ();
 #####################################################################
 # Test the examples from Inline.pm
 {
-	my $content = path(catfile( 't', 'data', '10_legacy_extract', 'Inline.pm' ))->slurp;
+	my $content = Path::Tiny::path(catfile( 't', 'data', '10_legacy_extract', 'Inline.pm' ))->slurp;
 	my $inline_file = \$content;
 	is( ref($inline_file), 'SCALAR', 'Loaded Inline.pm examples' );
 
