@@ -1,6 +1,6 @@
 Revision history for Perl extension Test-Inline
 
-{{$NEXT}}
+2.214     2021-01-23 22:43:10Z
           - distribution tooling updates
           - removed Pod::Tests dependency that is no longer used
           - remove use of File::Slurp in favour of Path::Tiny
