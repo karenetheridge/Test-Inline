@@ -2,6 +2,7 @@ Revision history for Perl extension Test-Inline
 
 {{$NEXT}}
           - distribution tooling updates
+          - removed Pod::Tests dependency that is no longer used
 
 2.213   2013-04-08
 	- Updating to Module::Install 1.06
