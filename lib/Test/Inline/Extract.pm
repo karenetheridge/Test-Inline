@@ -14,7 +14,7 @@ L<Test::Inline> from source files.
 
 use strict;
 use List::Util   ();
-use File::Slurp  ();
+use Path::Tiny ();
 use Params::Util qw{_CLASS _INSTANCE _SCALAR};
 
 our $VERSION = '2.214';
@@ -60,7 +60,8 @@ sub _source {
 	return undef unless defined $_[0];
 	return shift if     _SCALAR($_[0]);
 	return undef if     ref $_[0];
-	File::Slurp::read_file( shift, scalar_ref => 1 );
+	my $content = Path::Tiny::path(shift)->slurp;
+	return \$content;
 }
 
 =pod

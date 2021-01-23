@@ -41,7 +41,7 @@ The C<tests> tag will be replaced by the actual testing code.
 =cut
 
 use strict;
-use File::Slurp  ();
+use Path::Tiny ();
 use Params::Util qw{_INSTANCE};
 use Test::Inline::Content ();
 
@@ -74,7 +74,7 @@ sub new {
 	my $self  = $class->SUPER::new() or return undef;
 
 	# Load, check and add the file
-	my $template = File::Slurp::read_file( $file ) or return undef;
+	my $template = Path::Tiny::path($file)->slurp or return undef;
 	$template =~ /\[%\s+tests\s+\%\]/              or return undef;
 	# $template =~ /\[\%\s+plan\s+\%\]/              or return undef;
 	$self->{template} = $template;

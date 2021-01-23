@@ -31,7 +31,6 @@ use File::Spec::Functions  ':ALL';
 use Getopt::Long           ();
 use Config::Tiny           ();
 use Test::Inline           ();
-use File::Slurp            ();
 use Test::Inline::IO::File ();
 
 our $VERSION = '2.214';
