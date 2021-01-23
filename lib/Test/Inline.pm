@@ -143,11 +143,8 @@ use Test::Inline::Content::Simple  ();
 use Test::Inline::Extract          ();
 use Test::Inline::IO::File         ();
 
-use vars qw{$VERSION @ISA};
-BEGIN {
-	$VERSION = '2.214';
-	@ISA     = 'Algorithm::Dependency::Source';
-}
+our $VERSION = '2.214';
+our @ISA     = 'Algorithm::Dependency::Source';
 
 
 

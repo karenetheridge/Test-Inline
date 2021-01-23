@@ -21,10 +21,7 @@ extensions can be written to control the content of the generated scripts.
 use strict;
 use Params::Util '_INSTANCE';
 
-use vars qw{$VERSION};
-BEGIN {
-	$VERSION = '2.214';
-}
+our $VERSION = '2.214';
 
 =pod
 

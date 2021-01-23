@@ -100,12 +100,9 @@ use List::Util                  ();
 use Params::Util                qw{_ARRAY};
 use Algorithm::Dependency::Item ();
 
-use vars qw{$VERSION @ISA $errstr};
-BEGIN {
-	$VERSION = '2.214';
-	@ISA     = 'Algorithm::Dependency::Item';
-	$errstr  = '';
-}
+our $VERSION = '2.214';
+our @ISA     = 'Algorithm::Dependency::Item';
+our $errstr  = '';
 
 
 

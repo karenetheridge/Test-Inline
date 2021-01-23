@@ -54,11 +54,8 @@ use strict;
 use Params::Util          qw{_CODE _INSTANCE};
 use Test::Inline::Content ();
 
-use vars qw{$VERSION @ISA};
-BEGIN {
-	$VERSION = '2.214';
-	@ISA     = 'Test::Inline::Content';
-}
+our $VERSION = '2.214';
+our @ISA     = 'Test::Inline::Content';
 
 =pod
 

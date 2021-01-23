@@ -21,10 +21,7 @@ use List::Util   ();
 use File::Slurp  ();
 use Params::Util qw{_CLASS _INSTANCE _SCALAR};
 
-use vars qw{$VERSION};
-BEGIN {
-	$VERSION = '2.214';
-}
+our $VERSION = '2.214';
 
 
 

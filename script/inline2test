@@ -36,10 +36,7 @@ use Test::Inline           ();
 use File::Slurp            ();
 use Test::Inline::IO::File ();
 
-use vars qw{$VERSION};
-BEGIN {
-	$VERSION = '2.214';
-}
+our $VERSION = '2.214';
 
 # Predeclare things
 sub stop ($);

@@ -39,10 +39,7 @@ use File::Spec   ();
 use File::chmod  ();
 use File::Remove ();
 
-use vars qw{$VERSION};
-BEGIN {
-	$VERSION = '2.214';
-}
+our $VERSION = '2.214';
 
 
 

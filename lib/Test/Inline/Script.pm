@@ -27,14 +27,11 @@ use Algorithm::Dependency::Ordered ();
 use overload 'bool' => sub () { 1 },
              '""'   => 'filename';
 
-use vars qw{$VERSION @ISA};
-BEGIN {
-	$VERSION = '2.214';
-	@ISA     = qw{
-		Algorithm::Dependency::Source
-		Algorithm::Dependency::Item
-	};
-}
+our $VERSION = '2.214';
+our @ISA     = qw{
+	Algorithm::Dependency::Source
+	Algorithm::Dependency::Item
+};
 
 # Special case, for when doing unit tests ONLY.
 # Don't throw the missing files warning.
